@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   // output: "export",
-  assetPrefix: isProd ? "https://cdn.mydomain.com" : undefined,
+  assetPrefix: isProd ? "https://d1o63jc988sfg7.cloudfront.net" : undefined,
   // domains for images
   images: {
     domains: ["d1o63jc988sfg7.cloudfront.net"],
